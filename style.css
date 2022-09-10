@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* outline: 1px dotted red; */
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: grey;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.navbar ul li a:hover{
+    transition: .5s ease-out all;
+    color: black;
+    cursor: pointer;
+}
+.body {
+    display: flex;
+    justify-content: space-around;
+}
